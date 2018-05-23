@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.yuvraj.navigationdrawer.MainActivity">
+    <ImageView
+        android:id="@+id/image_slider"
+        android:layout_width="1000dp"
+        android:src="@drawable/bannerrr"
+        android:layout_height="130dp" />
+
+
+
+    <LinearLayout
+        android:paddingTop="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_btn"
+                android:drawableTop="@drawable/wifi"
+                android:text="EZ Communication"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnfav"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_btn"
+                android:drawableTop="@drawable/favourite"
+                android:text="My Favourite"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/btn_profile"
+                android:textSize="12dp"
+                android:textColor="#FFFFFF"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_btn"
+                android:drawableTop="@drawable/profile"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:text="My Profile" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_news"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_btn"
+                android:drawableTop="@drawable/news"
+                android:text="News"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/btn_announcement"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_btn"
+                android:drawableTop="@drawable/announcement"
+                android:text="Announcement"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp" />
+            <Button
+                android:id="@+id/btn_globalnews"
+                android:layout_width="170dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_btn"
+                android:drawableTop="@drawable/news"
+                android:text="Global News"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

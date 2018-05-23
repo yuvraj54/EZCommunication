@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        />
+        <item
+            android:id="@+id/nav_first_fragment"
+
+            android:title="Home"
+           />
+
+    <item
+        android:id="@+id/nav_seventh_fragment"
+
+        android:title="About Us" />
+
+    <item
+        android:id="@+id/nav_nineth_fragment"
+
+        android:title="Contact Us" />
+
+    <item
+        android:id="@+id/nav_ten_fragment"
+
+        android:title="Feedback" />
+
+    <item
+        android:id="@+id/nav_fourth_fragment"
+
+        android:title="Logout" />
+
+
+
+</menu>
